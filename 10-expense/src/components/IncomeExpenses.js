@@ -13,7 +13,7 @@ const IncomeExpenses = () => {
     -1
   ).toFixed(2);
   return (
-    <div className="inc-exp-container">
+    <div className="inc-exp-container rounded-full">
       <div>
         <h4>Income</h4>
         <p className="money plus">{income}</p>
